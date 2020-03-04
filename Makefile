@@ -8,7 +8,7 @@ GOGET=$(GOCMD) get
 
 OUTPUT=bin/idola
 
-SRC=main.go slackapi.go
+SRC=src/{main.go,slackapi.go}
 
 build:
 	$(GOBUILD) -o $(OUTPUT) $(SRC)
